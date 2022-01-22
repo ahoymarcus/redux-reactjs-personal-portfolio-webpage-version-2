@@ -5,6 +5,7 @@ import { ActionTypes } from '../constants/action-types';
 // SET_BACKEND_PROJECTS
 // SET_VANILLAJS_PROJECTS
 // SET_WEB_DESIGN_PROJECTS
+// SET_MAIN_PROJECTS
 // SET_ALL_PROJECTS
 // SET_MAIN_TAGS
 // SET_TAG_COUNT
@@ -14,6 +15,7 @@ const initialState = {
 	backend: [],
 	vanillaJs: [],
 	webDesign: [],
+	mainProjects: [],
 	allProjects: [],
 	mainTags: [],
 };
@@ -29,6 +31,8 @@ export const projectsReducer = (state = initialState, { type, payload }) => {
 			return { ...state, vanillaJs: payload };
 		case ActionTypes.SET_WEB_DESIGN_PROJECTS:
 			return { ...state, webDesign: payload };
+		case ActionTypes.SET_MAIN_PROJECTS:
+			return { ...state, mainProjects: payload }; 
 		case ActionTypes.SET_ALL_PROJECTS:
 			return { ...state, allProjects: payload };
 		case ActionTypes.SET_MAIN_TAGS:

@@ -7,6 +7,7 @@ import {
 	setBackendProjects,
 	setVanillaJsProjects,
 	setWebDesignProjects,
+	setMainProjects,
 	setMainTags,
 	setAllProjects
 } from './redux/actions/projectsActions';
@@ -30,6 +31,7 @@ import { frontendProjects } from './data/frontendProjects';
 import { backendProjects } from './data/backendProjects';
 import { vanillaJSProjects } from './data/vanillaJSProjects';
 import { webdesignProjects } from './data/webdesignProjects';
+import { mainProjects } from './data/mainProjects';
 import { mainTags } from './common/main-tags';
 
 
@@ -43,13 +45,12 @@ function App() {
 	dispatch(setVanillaJsProjects(vanillaJSProjects));
 	dispatch(setWebDesignProjects(webdesignProjects));
 	dispatch(setAllProjects([...frontendProjects, ...backendProjects, ...vanillaJSProjects, ...webdesignProjects]));
+	dispatch(setMainProjects(mainProjects));
 	
 	dispatch(setMainTags(mainTags));
 	
 	
-	/* REFERENTE AO COMPONENTE SELECTEDSECTION */
-	const selectedSection = useSelector((state) => state.selectedSection.selectedSection);
-	console.log(selectedSection);
+	
 	
 	
   return (

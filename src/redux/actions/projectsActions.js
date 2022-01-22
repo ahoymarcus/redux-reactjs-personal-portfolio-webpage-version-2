@@ -6,6 +6,7 @@ import { ActionTypes } from '../constants/action-types';
 // SET_BACKEND_PROJECTS
 // SET_VANILLAJS_PROJECTS
 // SET_WEB_DESIGN_PROJECTS
+// SET_MAIN_PROJECTS
 // SET_ALL_PROJECTS
 // SET_MAIN_TAGS
 // SET_TAG_COUNT
@@ -35,6 +36,13 @@ export const setWebDesignProjects = (webDesign) => {
 	return {
 		type: ActionTypes.SET_WEB_DESIGN_PROJECTS,
 		payload: webDesign
+	};
+};
+
+export const setMainProjects = (mainProjects) => {
+	return {
+		type: ActionTypes.SET_MAIN_PROJECTS,
+		payload: mainProjects
 	};
 };
 

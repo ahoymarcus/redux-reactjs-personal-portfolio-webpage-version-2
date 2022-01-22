@@ -50,7 +50,7 @@ const OtherProjectsSlider = () => {
 	
 	return (
 		<div >
-			<h2>Other Projects</h2>
+			<h2 id="projects-section-title">Other Projects</h2>
 		
 			<div className="btn-container">
 				<button className="prev-btn" onClick={prevProject}>

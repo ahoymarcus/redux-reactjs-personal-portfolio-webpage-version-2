@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 // components
 import ProjectList from '../components/ProjectList';
@@ -16,6 +17,11 @@ const AllProjectsPage = () => {
 	
 	return (
 		<>
+			<div className="navigation-links">
+				<Link to="/"><span className="navigation-links-color">The Main Projects List</span></Link>
+				<Link to="/all-projects"><span className="navigation-links-color">The Whole Project Section</span></Link>
+			</div>
+			
 			{selectedSection === 'All' || selectedSection === 'Frontend' ? 
 				<section 
 					id="frontend-projects"

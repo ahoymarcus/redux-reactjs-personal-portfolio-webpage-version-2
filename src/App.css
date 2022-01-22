@@ -69,6 +69,26 @@ header, main {
 }
 
 
+.navigation-links {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 55px;
+	background-color: #080806; /*black;*/
+}
+.navigation-links-color {
+	color: black;
+	background-color: #d7c773d4;
+	cursor: pointer;
+	border: 1px solid #d7c773;
+	padding: 8px 12px 8px;
+	border-radius: 8px;
+	font-size: 1rem;
+}
+.navigation-links-color:hover {
+	color: white;
+	background-color: transparent;
+}
+
 /* WELCOME SECTION */
 main .welcome-section { 
 	/*clear: both;*/ 

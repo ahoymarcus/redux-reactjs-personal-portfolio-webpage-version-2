@@ -9,7 +9,7 @@ const ErrorPage = () => {
 		<div>
 			<h1>404 - Página não encontrada</h1>
 			<p>Hora de retornar para Home Page</p>
-			<Link to="/">Back to Home</Link>
+			<Link to="/">Back to Main Page</Link>
 		</div>
 	);
 };

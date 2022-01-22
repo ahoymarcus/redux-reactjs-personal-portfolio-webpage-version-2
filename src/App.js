@@ -88,7 +88,7 @@ function App() {
 					<Routes>
 						<Route path="/" element={<MainProjectsPage />} />
 						<Route path="/all-projects" element={<AllProjectsPage />} />
-						<Route path="*" element={<ErrorPage />} />
+							{/*<Route path="*" element={<ErrorPage />} />*/}
 					</Routes>
 				</Router>
 						

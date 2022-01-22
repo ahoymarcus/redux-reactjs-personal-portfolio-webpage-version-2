@@ -22,7 +22,7 @@ const ProjectList = ({ type }) => {
 			className={`projects ${type}-section`} 
 			aria-label={`${type} projects`}
 		>
-			<h2>{type} projects</h2>
+			<h2 id="projects-section-title">{type} projects</h2>
 			
 			<div className="projects-container-grid">
 				{type === 'frontend' ? (

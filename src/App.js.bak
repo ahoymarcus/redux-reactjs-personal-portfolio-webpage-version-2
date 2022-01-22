@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { 
 	setFrontendProjects,
@@ -14,15 +13,12 @@ import {
 // styles
 import './App.css'; 
 
-// pages
-import MainProjectsPage from './pages/MainProjectsPage';
-import AllProjectsPage from './pages/AllProjectsPage';
-import ErrorPage from './pages/ErrorPage';
-
 // components
 import Navbar from './components/Navbar';
 import SelectSection from './components/SelectSection';
 import { MemoizedAggregationTab } from './components/AggregationTab';
+import ProjectList from './components/ProjectList';
+import OtherProjectsSlider from './components/OtherProjectsSlider';
 import Footer from './components/Footer';
 
 // dados
@@ -83,14 +79,36 @@ function App() {
 					<MemoizedAggregationTab />
 				</section>
 				
-				<Router>
-					<Routes>
-						<Route path="/" element={<MainProjectsPage />} />
-						<Route path="/all-projects" element={<AllProjectsPage />} />
-						<Route path="*" element={<ErrorPage />} />
-					</Routes>
-				</Router>
-						
+				{selectedSection === 'All' || selectedSection === 'Frontend' ? 
+					<section 
+						id="frontend-projects"
+						className="projects" 
+						aria-label="Web Development Projects"
+					>
+						<ProjectList type="frontend" />
+					</section>
+				 : null}
+				
+				{selectedSection === 'All' || selectedSection === 'Backend' ? 
+					<section 
+						id="backend-projects"
+						className="projects" 
+						aria-label="Web Development Projects"
+					>	
+						<ProjectList type="backend" />
+					</section>
+				 : null}
+				
+				{selectedSection === 'All' || selectedSection === 'VanillaJS' ? 
+					<section 
+						id="other-projects" 
+						className="other-projects" 
+						aria-label="Web Development Projects"
+					>
+						<OtherProjectsSlider />
+					</section>
+				 : null}
+				
 				
 				<section 
 					id="contact" 

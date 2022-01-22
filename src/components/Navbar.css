@@ -1,0 +1,26 @@
+nav#navbar { 
+	position: fixed; 
+	display: flex; 
+	justify-content: flex-end; 
+	color: black; /*#ffffffc7; #2f2a1a; #2f0e02; #441504; #9c320a; #f7622b;*/ 
+	background-color: #c7bf7a; /*#c7bf7a; #6f7b7e; #78878c; */
+	width: 100%;
+	z-index: 99;
+}
+nav#navbar p {
+	font-size: 2rem;
+	font-weight: 400;
+	padding-right: 40px; 
+	line-height: 2;
+}
+nav#navbar a { 
+	color: inherit; 
+}
+
+nav#navbar a:hover {
+	color: white;
+}
+
+
+
+

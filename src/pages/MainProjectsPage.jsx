@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 // components
 import ProjectsSlider from '../components/ProjectsSlider';
-import InputComponent from '../components/InputComponent';
-import SearchComponent from '../components/SearchComponent';
 
 
 
@@ -24,22 +22,6 @@ const MainProjectsPage = () => {
 				aria-label="Web Development Projects"
 			>
 				<ProjectsSlider type={'mainProjects'} />
-			</section>
-			
-			<section 
-				id="input-projects-section"
-				className="input-section"
-				aria-label="input projects section"
-			>
-				<InputComponent />
-			</section>
-			
-			<section 
-				id="search-projects"
-				className="projects" 
-				aria-label="Web Development Projects"
-			>
-				<SearchComponent />
 			</section>
 			
 		</>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 // components
 import ProjectList from '../components/ProjectList';
-import OtherProjectsSlider from '../components/OtherProjectsSlider';
+import ProjectsSlider from '../components/ProjectsSlider';
 
 
 
@@ -48,7 +48,7 @@ const AllProjectsPage = () => {
 					className="other-projects" 
 					aria-label="Web Development Projects"
 				>
-					<OtherProjectsSlider />
+					<ProjectsSlider type={'otherProjects'} />
 				</section>
 			 : null}
 		</>

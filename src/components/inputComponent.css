@@ -1,15 +1,15 @@
-/* Select Section */
-main section.select-section {
-	background-color: #080806; /*#8b897b; #7a7652;*/
+/* Input Section */
+main section.input-section {
+	/*background-color: #080806; /*#8b897b; #7a7652;*/
 	color: #d7c773; 
-	padding: 2rem 3rem 0rem;
+	padding: 2rem 3rem 2rem;
 }
 
-main section.select-section .projects { 
+main section.input-section .projects { 
 	margin-bottom: 15px;
 }
 
-main section.select-section h2 { 
+main section.input-section h2 { 
 	color: #ad6419; 
 	text-align: center; 
 	margin: 30px 0px 35px;
@@ -21,13 +21,13 @@ main section.select-section h3 {
 	text-align: center;
 }
 
-.select-section-header {
+.input-section-header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.select-option {
+.input-option {
 	width: 80%;
 	display: flex;
 	justify-content: center;
@@ -40,7 +40,7 @@ form {
 	width: 70%;
 }
 
-select {
+input {
 	font-size: 18px;
 	width: 50%;
 	padding: 5px 5px 5px 10px;

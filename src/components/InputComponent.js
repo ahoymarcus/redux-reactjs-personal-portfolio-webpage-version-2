@@ -4,42 +4,39 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setSelectedSection } from '../redux/actions/selectedSectionActions';
 
 // styles
-import './SelectSection.css';
+import './InputComponent.css';
 
 
 
-const SelectSection = () => {
+const InputComponent = () => {
 	const dispatch = useDispatch();
 	
 	
-	const [ isSelected, setIsSelected ] = useState('All');
+	const [ search, setSearch ] = useState('');
 	
 	const selected = useSelector((state) => state.selectedSection.selectedSection);	
 	
 	
-	const handleChange = (e) => {
-		console.log(e.target.value);
-		
-		setIsSelected(e.target.value);
-	};
+	console.log(search);
 	
-	useEffect(() => {
-		dispatch(setSelectedSection(isSelected));
-	}, [isSelected]);
+	
+	// useEffect(() => {
+		// dispatch(setSelectedSection(isSelected));
+	// }, [search]);
 	
 	
 	
 	return (
-		<div className="select-section-header">
-			<h2>My Technologies</h2>
-			<div className="select-option">
+		<div className="input-section-header">
+			<h2>Tech Search</h2>
+			<div className="input-option">
 				<form>
-					<select value={selected} onChange={handleChange}>
-						<option value="All">All</option>
-						<option value="Frontend">Frontend</option>
-						<option value="Backend">Backend</option>
-						<option value="VanillaJS">VanillaJS e WebDesign</option>
-					</select>						
+					<input 
+						type="text"
+						value={search}
+						onChange={(e) => setSearch(e.target.value)}
+						placeholder="My techs..."
+					/>
 				</form>
 			</div>
 		</div>
@@ -48,6 +45,6 @@ const SelectSection = () => {
 
 
 
-export default SelectSection;
+export default InputComponent;
 
 

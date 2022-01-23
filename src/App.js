@@ -71,7 +71,7 @@ function App() {
 				<section 
 					id="select-projects-section"
 					className="select-section"
-					aria-label="Aggregation Information"
+					aria-label="select projects section"
 				>
 					<SelectComponent />
 				</section>

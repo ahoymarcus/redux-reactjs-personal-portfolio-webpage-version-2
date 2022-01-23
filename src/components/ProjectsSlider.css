@@ -27,17 +27,17 @@ main section.projects-slider h4 {
 }
 
 main section.projects-slider h5 { 
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 main section.projects-slider h6 { 
-	font-size: 0.9rem;
+	font-size: 1rem;
 	cursor: pointer;
 	line-height: 1.5rem;
 }
 
 main section.projects-slider h6 a:hover {
-	color: black; /*rgb(36 151 36);*/
+	color: white; /*black; rgb(36 151 36);*/
 }
 
 
@@ -113,10 +113,13 @@ main section.projects-slider .next-btn {
 	}
 }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 762px) {
 	main section.projects-slider .repositories {
-		right: 120px;
+		right: 80px;
 	}
+}
+
+@media only screen and (min-width: 860px) {
 	main section.projects-slider .projects-slider {
 		grid-template-columns: 0.8fr 1.2fr;
 	}
@@ -126,3 +129,12 @@ main section.projects-slider .next-btn {
 		height: 450px;
 	}
 }
+
+
+@media only screen and (min-width: 977px) {
+	main section.projects-slider .repositories {
+		right: 130px;
+	}
+}
+
+

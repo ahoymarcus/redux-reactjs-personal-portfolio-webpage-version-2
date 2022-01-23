@@ -67,7 +67,7 @@ function App() {
 					<h1>Ahoooy, there! My name is Marcus Richa</h1>
 					<p>Welcome to my Portfolio Webpage.</p>
 				</section>
-				
+				 
 				<section 
 					id="select-projects-section"
 					className="select-section"

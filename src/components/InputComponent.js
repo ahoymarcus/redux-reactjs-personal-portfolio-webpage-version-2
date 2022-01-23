@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { setSelectedSection } from '../redux/actions/selectedSectionActions';
 
@@ -14,17 +14,9 @@ const InputComponent = () => {
 	
 	const [ search, setSearch ] = useState('');
 	
-	const selected = useSelector((state) => state.selectedSection.selectedSection);	
-	
-	
 	console.log(search);
 	
-	
-	// useEffect(() => {
-		// dispatch(setSelectedSection(isSelected));
-	// }, [search]);
-	
-	
+		
 	
 	return (
 		<div className="input-section-header">

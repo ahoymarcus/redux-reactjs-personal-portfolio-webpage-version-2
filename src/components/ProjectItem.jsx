@@ -17,6 +17,8 @@ const ProjectItem = ({ type, title, image, urlApp, urlRepository, description, t
 		href = urlApp;
 	} else if (type === 'backend') {
 		href = urlRepository;
+	} else if (type === 'search') {
+		href = urlRepository;
 	}
 		
 	

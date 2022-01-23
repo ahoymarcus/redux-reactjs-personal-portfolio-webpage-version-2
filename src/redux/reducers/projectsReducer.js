@@ -9,7 +9,7 @@ import { ActionTypes } from '../constants/action-types';
 // SET_ALL_PROJECTS
 // SET_MAIN_TAGS
 // SET_TAG_COUNT
-// SET_SELECTED_SECTION
+// SET_SEARCH_PROJECT
 const initialState = {
 	frontend: [],
 	backend: [],
@@ -17,6 +17,7 @@ const initialState = {
 	webDesign: [],
 	mainProjects: [],
 	allProjects: [],
+	searchTerm: '',
 	mainTags: [],
 };
 
@@ -51,6 +52,8 @@ export const projectsReducer = (state = initialState, { type, payload }) => {
 			});
 			
 			return { ...state, mainTags: tempMainTags };
+		case ActionTypes.SET_SEARCH_PROJECT:
+			return { ...state, searchTerm: payload };
 		default:
 			return state;
 	}

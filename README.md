@@ -26,7 +26,7 @@ lista todos os meus projetos em 3 seções
 
 Repository:
 
-- [Portifolio Web App versão 2 na Netlify]()
+- [Portifolio Web App versão 2.0 na Netlify]()
 
 
 

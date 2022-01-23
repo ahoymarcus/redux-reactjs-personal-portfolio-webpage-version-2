@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // components
 import ProjectsSlider from '../components/ProjectsSlider';
 import InputComponent from '../components/InputComponent';
+import SearchComponent from '../components/SearchComponent';
 
 
 
@@ -32,6 +33,15 @@ const MainProjectsPage = () => {
 			>
 				<InputComponent />
 			</section>
+			
+			<section 
+				id="search-projects"
+				className="projects" 
+				aria-label="Web Development Projects"
+			>
+				<SearchComponent />
+			</section>
+			
 		</>
 	);
 };

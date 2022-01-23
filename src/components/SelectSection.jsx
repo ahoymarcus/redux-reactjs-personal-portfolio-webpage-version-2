@@ -38,7 +38,7 @@ const SelectSection = () => {
 						<option value="All">All</option>
 						<option value="Frontend">Frontend</option>
 						<option value="Backend">Backend</option>
-						<option value="VanillaJS">VanillaJS</option>
+						<option value="VanillaJS">VanillaJS e WebDesign</option>
 					</select>						
 				</form>
 			</div>

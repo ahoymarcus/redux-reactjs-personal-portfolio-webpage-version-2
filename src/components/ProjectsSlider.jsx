@@ -10,11 +10,13 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
 
 const ProjectsSlider = ({ type }) => {
+	// redux
 	const vanillaJSProjects = useSelector((state) => state.allProjects.vanillaJs);
 	const webdesignProjects = useSelector((state) => state.allProjects.webDesign);
 	const mainProjects = useSelector((state) => state.allProjects.mainProjects);
 	const otherProjects = [...webdesignProjects, ...vanillaJSProjects];
 	
+	// states
 	const [ index, setIndex ] = useState(0);
 	const [ projects, setProjects ] = useState(type === 'mainProjects' ? mainProjects : otherProjects);
 	const [ h2Heading, setH2Heading ] = useState(type === 'mainProjects' ? 'Main Projects' : 'Other Projects');
@@ -23,28 +25,9 @@ const ProjectsSlider = ({ type }) => {
 	console.log(type);
 	console.log(projects);
 	console.log(index);
-	// console.log(mainProjects);
-	// console.log(otherProjects);
 	
 	
-	let { title, image, urlApp, urlRepository, description, tags } = projects[index];
-	
-	
-	// let h2Heading = '';
-	// let h3Heading = '';
-	
-	// if (type === 'mainProjects') {
-		// let { title, image, urlApp, urlRepository, description, tags } = mainProjects[index];
-		// h2Heading = 'Main Projects';
-		// h3Heading = 'Frontend and Backend Projects';
-	// }
-	// if (type === 'otherProjects') {
-		// let { title, image, urlApp, urlRepository, description, tags } = otherProjects[index];
-		// h2Heading = 'Other Projects';
-		// h3Heading = 'Vanilla JavaScript and Web Design';
-	// }
-	
-	
+	let { title, image, urlApp, urlRepository, description, tags } = projects[index];	
 	//console.log(tags);
 	
 	

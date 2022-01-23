@@ -21,9 +21,19 @@ const AggregationTab = () => {
 	const allProjectsArr = useSelector((state) => state.allProjects.allProjects);
 	const mainTags = useSelector((state) => state.allProjects.mainTags);
 	
+	const selected = useSelector((state) => state.selectedSection.selectedSection);
 	
 	
-	const totalProjectsArraySize = allProjectsObject.frontend.length + allProjectsObject.backend.length + allProjectsObject.vanillaJs.length + allProjectsObject.webDesign.length;
+	let totalProjectsArraySize = 0;
+	if (selected === 'All') {
+		totalProjectsArraySize = allProjectsObject.frontend.length + allProjectsObject.backend.length + allProjectsObject.vanillaJs.length + allProjectsObject.webDesign.length;
+	} else if (selected === 'Frontend') {
+		totalProjectsArraySize = allProjectsObject.frontend.length;
+	} else if (selected === 'Backend') {
+		totalProjectsArraySize = allProjectsObject.backend.length;
+	} else if (selected === 'VanillaJS') {
+		totalProjectsArraySize = allProjectsObject.vanillaJs.length + allProjectsObject.webDesign.length;
+	}
 	
 	
 	let completeTagsArr = [];
@@ -73,7 +83,7 @@ const AggregationTab = () => {
 	return (
 		<div className="projects">
 			<div className="info-numbers">
-				<h3>Total de Projetos: <span className="number-values">{totalProjectsArraySize}</span> projetos</h3>
+				<h3>Number of Projects: <span className="number-values">{totalProjectsArraySize}</span> projects</h3>
 			</div>
 			<div className="aggregationTab-tags-container">
 				<h3>Main Tags</h3>

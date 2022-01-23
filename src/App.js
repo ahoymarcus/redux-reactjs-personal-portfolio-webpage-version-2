@@ -22,7 +22,7 @@ import ErrorPage from './pages/ErrorPage';
 
 // components
 import Navbar from './components/Navbar';
-import SelectSection from './components/SelectSection';
+import SelectComponent from './components/SelectComponent';
 import { MemoizedAggregationTab } from './components/AggregationTab';
 import Footer from './components/Footer';
 
@@ -73,7 +73,7 @@ function App() {
 					className="select-section"
 					aria-label="Aggregation Information"
 				>
-					<SelectSection />
+					<SelectComponent />
 				</section>
 				
 				<section 

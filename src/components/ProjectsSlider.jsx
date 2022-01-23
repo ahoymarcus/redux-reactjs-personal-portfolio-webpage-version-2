@@ -72,11 +72,11 @@ const ProjectsSlider = ({ type }) => {
 				</button>
 			</div>
 			
-			<div className="other-projects">	
-				<article className="other-projects-img-container">
-					<img src={image} alt={`projeto ${title}`} className="other-project-img" />
+			<div className="projects-slider">	
+				<article className="projects-slider-img-container">
+					<img src={image} alt={`projeto ${title}`} className="projects-slider-img" />
 				</article>
-				<article className="other-projects-info">
+				<article className="projects-slider-info">
 					<h4>{title}</h4>
 					<p>
 						{description}

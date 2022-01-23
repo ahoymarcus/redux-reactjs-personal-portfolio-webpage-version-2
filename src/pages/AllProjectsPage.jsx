@@ -44,8 +44,8 @@ const AllProjectsPage = () => {
 
 			{selectedSection === 'All' || selectedSection === 'VanillaJS' ? 
 				<section 
-					id="other-projects" 
-					className="other-projects" 
+					id="projects-slider" 
+					className="projects-slider" 
 					aria-label="Web Development Projects"
 				>
 					<ProjectsSlider type={'otherProjects'} />

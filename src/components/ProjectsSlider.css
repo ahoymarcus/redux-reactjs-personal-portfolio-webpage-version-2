@@ -1,5 +1,5 @@
-/* Other Projects Section */
-main section.other-projects {
+/* Project Slider */
+main section.projects-slider {
 	background-color: #cfcf6f; /*#ebd0c7 #f9cabc; #e7e7b4;*/
 	color: #2f2a1a; 
 	padding: 2rem 3rem 4rem;
@@ -9,51 +9,52 @@ main section.other-projects {
 	margin-bottom: 75px; 
 }*/
 
-main section.other-projects h2 { 
+main section.projects-slider h2 { 
 	color: #ad6419; 
 	text-align: center; 
 }
 
-main section.other-projects h3 { 
+main section.projects-slider h3 { 
 	color: #2f2a1a;  
 	font-size: 1.6rem;
 	text-align: center;
 	/*margin-bottom: 20px;*/
 }
 
-main section.other-projects h4 { 
+main section.projects-slider h4 { 
 	font-size: 2rem;
 	text-align: center;
 }
 
-main section.other-projects h5 { 
+main section.projects-slider h5 { 
 	font-size: 1rem;
 }
 
-main section.other-projects h6 { 
-	font-size: 0.8rem;
+main section.projects-slider h6 { 
+	font-size: 0.9rem;
 	cursor: pointer;
+	line-height: 1.5rem;
 }
 
-main section.other-projects h6 a:hover {
+main section.projects-slider h6 a:hover {
 	color: black; /*rgb(36 151 36);*/
 }
 
 
-main section.other-projects .other-projects {
+main section.projects-slider .projects-slider {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1.5rem;
 	margin-bottom: 1.5rem;
 }
 
-main section.other-projects .other-projects-img-container {
+main section.projects-slider .projects-slider-img-container {
 	width: 400px;
 	height: 450px;
 	border-radius: 5px;
 }
 
-main section.other-projects .other-project-img {
+main section.projects-slider .projects-slider-img {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -62,62 +63,65 @@ main section.other-projects .other-project-img {
 	/*object-fit: cover;*/
 }
 
-main section.other-projects .other-projects-info {
+main section.projects-slider .projects-slider-info {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
-main section.other-projects .repositories {
+main section.projects-slider .repositories {
 	position: relative;
 	right: 115px;
 }
 
 
-main section.other-projects .btn-container {
+main section.projects-slider .btn-container {
 	text-align: center;
 	margin-bottom: 10px;
 }
 
-main section.other-projects .prev-btn, main section.other-projects .next-btn {
+main section.projects-slider .prev-btn, main section.projects-slider .next-btn {
 	background-color: #b97f4414; /*#ad6419; #e7e7b4;*/
 	font-size: 25px;
 	width: 60px;
 	padding: 8px 6px 6px;
 	border: none;
-	
+	cursor: pointer;
+}
+main section.projects-slider .prev-btn:hover , main section.projects-slider .next-btn:hover {
+	color: white;
 }
 
-main section.other-projects .prev-btn {
+main section.projects-slider .prev-btn {
 	border-radius: 3px 0  0 3px;
 }
-main section.other-projects .next-btn {
+main section.projects-slider .next-btn {
 	border-radius: 0px 3px  3px 0;
 }
 
 @media only screen and (min-width: 600px) {
-	main section.other-projects .repositories {
+	main section.projects-slider .repositories {
 		right: 0px;
 	}
-	main section.other-projects .other-projects {
+	main section.projects-slider .projects-slider {
 		grid-template-columns: 0.5fr 1.3fr;
 	}
-	main section.other-projects .other-projects-img-container {
+	main section.projects-slider .projects-slider-img-container {
 		width: 300px;
 		height: 350px;
 	}
 }
 
 @media only screen and (min-width: 860px) {
-	main section.other-projects .repositories {
+	main section.projects-slider .repositories {
 		right: 120px;
 	}
-	main section.other-projects .other-projects {
+	main section.projects-slider .projects-slider {
 		grid-template-columns: 0.8fr 1.2fr;
 	}
 	
-	main section.other-projects .other-projects-img-container {
+	main section.projects-slider .projects-slider-img-container {
 		width: 400px;
 		height: 450px;
 	}

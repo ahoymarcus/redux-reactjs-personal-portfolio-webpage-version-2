@@ -10,7 +10,6 @@ import { ActionTypes } from '../constants/action-types';
 // SET_ALL_PROJECTS
 // SET_MAIN_TAGS
 // SET_TAG_COUNT
-// SET_SEARCH_PROJECT
 export const setFrontendProjects = (frontend) => {
 	return {
 		type: ActionTypes.SET_FRONTEND_PROJECTS,
@@ -67,12 +66,6 @@ export const setTagAddition = (tag) => {
 	};
 };
 
-export const setSearchProjects = (search) => {
-	return {
-		type: ActionTypes.SET_SEARCH_PROJECT,
-		payload: search
-	};
-};
 
 
 

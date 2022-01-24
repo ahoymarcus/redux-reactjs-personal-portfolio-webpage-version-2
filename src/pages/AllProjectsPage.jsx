@@ -9,6 +9,7 @@ import ProjectsSlider from '../components/ProjectsSlider';
 
 
 const AllProjectsPage = () => {
+	
 	/* REFERENTE AO COMPONENTE SELECTEDSECTION */
 	const selectedSection = useSelector((state) => state.selectedSection.selectedSection);
 	console.log(selectedSection);
@@ -17,9 +18,11 @@ const AllProjectsPage = () => {
 	
 	return (
 		<>
-			<div className="navigation-links">
-				<Link to="/"><span className="navigation-links-color">The Main Projects List</span></Link>
-				<Link to="/all-projects"><span className="navigation-links-color">The Whole Project Section</span></Link>
+			<div 
+				className="navigation-links"
+			>
+				<Link to="/"><span className="navigation-links-color-aux">See Also The Main Projects List</span></Link>
+				<Link to="/all-projects"><span className="navigation-links-color-sections">Sections Projects Lists</span></Link>
 			</div>
 			
 			{selectedSection === 'All' || selectedSection === 'Frontend' ? 

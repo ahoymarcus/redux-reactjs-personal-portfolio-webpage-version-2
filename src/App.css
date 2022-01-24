@@ -75,7 +75,36 @@ header, main {
 	padding-bottom: 55px;
 	background-color: #080806; /*black;*/
 }
-.navigation-links-color {
+
+.navigation-links-color-main {
+	color: white;
+	background-color: #ffffff30;
+	cursor: pointer;
+	border: 1px solid #d7c773;
+	padding: 8px 12px 8px;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.navigation-links-color-main:hover {
+	color: white;
+	background-color: #d7c773;
+}
+.navigation-links-color-sections {
+	color: white;
+	background-color: #ffffff30;
+	cursor: pointer;
+	border: 1px solid #d7c773;
+	padding: 8px 12px 8px;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.navigation-links-color-sections:hover {
+	color: white;
+	background-color: #d7c773;
+}
+.navigation-links-color-aux {
 	color: black;
 	background-color: #d7c773d4;
 	cursor: pointer;
@@ -84,9 +113,8 @@ header, main {
 	border-radius: 8px;
 	font-size: 1rem;
 }
-.navigation-links-color:hover {
+.navigation-links-color-aux:hover {
 	color: white;
-	background-color: transparent;
 }
 
 /* WELCOME SECTION */

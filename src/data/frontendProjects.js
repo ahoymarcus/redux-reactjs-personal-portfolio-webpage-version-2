@@ -4,18 +4,16 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/reactjs-rocket-launches-app',
 		urlApp: 'https://reactjs-rocket-launches-app.netlify.app/',
 		image: '/images/frontend/reactjs-rocket-launches-app.png',
-		description: 'Este React app foi escrito para ser cliente de uma API que por sua vez consome seua dados de outra API externa, limitando o serviço final a apenas 04 rotas.',
+		description: 'Este React app foi escrito para ser cliente de uma API que por sua vez consome seus dados de outra API externa que limita o serviço final a apenas 04 rotas.',
 		tags: ['react-js', 'use-context', 'react-router-dom', 'react-icons', 'styled-components', 'api rest'],
-	},
-	{
-		title: 'Next.JS Blog App',
-		urlRepository: 'https://github.com/ahoymarcus/nextjs-org-blog-tutorial',
-		urlApp: 'https://nextjs-org-blog-tutorial.vercel.app/',
-		image: '/images/frontend/nextjs-org-blog-tutorial-01.png',
-		description: 'Um app feito com Next-JS, como parte do tutorial da Next.JS.org. Entre outros, é trabalhado o tratamento do conteúdo estático, Roteamento no frontend, estilização CSS, uso dinâmico de dados, etc...',
+	},{
+		title: 'Next-JS News Blog',
+		urlRepository: 'https://github.com/ahoymarcus/nextjs-news-blog',
+		urlApp: 'https://nextjs-reactjs-news-blog.vercel.app/',
+		image: '/images/frontend/nextjs-news-blog.png',
+		description: 'Um app Next.JS que renderiza um Blog de notícias utilizando a API pública News API (https://newsapi.org/), passando alguns parâmetros para a requição definindo número de artigos por página e a página propriamente dita que é passada de forma dinâmica na URL.',
 		tags: ['react-js', 'next-js', 'api rest'],
-	},
-	{
+	}, {
 		title: 'redux Shopping App',
 		urlRepository: 'https://github.com/ahoymarcus/redux-reactjs-shopping-cart',
 		urlApp: 'https://redux-axios-reactjs-shopping-cart.netlify.app/',
@@ -78,6 +76,14 @@ export let frontendProjects = [
 		image: '/images/frontend/reactjs-grocery-bud-app.png',
 		description: 'O projeto constrói um app que renderiza um formulário permitindo ao usuário a inserção, edição e remoção dos dados, incluse usando do local-storage do browser para persistir os dados guardados.',
 		tags: ['react-js', 'local-storage'],
+	},
+	{
+		title: 'Next.JS Blog App',
+		urlRepository: 'https://github.com/ahoymarcus/nextjs-org-blog-tutorial',
+		urlApp: 'https://nextjs-org-blog-tutorial.vercel.app/',
+		image: '/images/frontend/nextjs-org-blog-tutorial-01.png',
+		description: 'Um app feito com Next-JS, como parte do tutorial da Next.JS.org. Entre outros, é trabalhado o tratamento do conteúdo estático, Roteamento no frontend, estilização CSS, uso dinâmico de dados, etc...',
+		tags: ['react-js', 'next-js', 'api rest'],
 	},
 	{
 		title: 'Submenus Components App',

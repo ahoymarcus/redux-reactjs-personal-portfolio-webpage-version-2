@@ -16,11 +16,11 @@ export let mainProjects = [
 		tags: ['node-js', 'jwt'],
 	},
 	{
-		title: 'Next.JS Blog App',
-		urlRepository: 'https://github.com/ahoymarcus/nextjs-org-blog-tutorial',
-		urlApp: 'https://nextjs-org-blog-tutorial.vercel.app/',
-		image: '/images/frontend/nextjs-org-blog-tutorial-01.png',
-		description: 'Um app feito com Next-JS, como parte do tutorial da Next.JS.org. Entre outros, é trabalhado o tratamento do conteúdo estático, Roteamento no frontend, estilização CSS, uso dinâmico de dados, etc...',
+		title: 'Next-JS News Blog',
+		urlRepository: 'https://github.com/ahoymarcus/nextjs-news-blog',
+		urlApp: 'https://nextjs-reactjs-news-blog.vercel.app/',
+		image: '/images/frontend/nextjs-news-blog.png',
+		description: 'Um app Next.JS que renderiza um Blog de notícias utilizando a API pública News API (https://newsapi.org/), passando alguns parâmetros para a requição definindo número de artigos por página e a página propriamente dita que é passada de forma dinâmica na URL.',
 		tags: ['react-js', 'next-js', 'api rest'],
 	},
 	{

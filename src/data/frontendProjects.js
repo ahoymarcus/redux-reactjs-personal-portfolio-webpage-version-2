@@ -6,7 +6,16 @@ export let frontendProjects = [
 		image: '/images/frontend/reactjs-rocket-launches-app.png',
 		description: 'Este React app foi escrito para ser cliente de uma API que por sua vez consome seus dados de outra API externa que limita o serviço final a apenas 04 rotas.',
 		tags: ['react-js', 'use-context', 'react-router-dom', 'react-icons', 'styled-components', 'api rest'],
-	},{
+	},
+	{
+		title: 'Next-JS Weather App',
+		urlRepository: 'https://github.com/ahoymarcus/nextjs-weather-app',
+		urlApp: 'https://nextjs-weather-app-dun.vercel.app/',
+		image: '/images/frontend/',
+		description: 'Um app Next.JS que renderiza informações do tempo de cidades ao redor do mundo utilizando a API Open Weather (https://openweathermap.org/), passando alguns parâmetros definir o retorno dos dados.',
+		tags: ['react-js', 'next-js', 'api rest', 'scss', 'moment-timezone'],
+	},
+	{
 		title: 'Next-JS News Blog',
 		urlRepository: 'https://github.com/ahoymarcus/nextjs-news-blog',
 		urlApp: 'https://nextjs-reactjs-news-blog.vercel.app/',

@@ -8,17 +8,13 @@ export const mainTagsNames = [
 'styled-components',
 'react-router-dom', 
 'redux', 
-'reduxjs-toolkit',  
-'typescript',  
-'node-express js',
+'reduxjs-toolkit',    
+'node-js',
 'mongodb', 
 'mysql', 
 'postgres', 
 'api rest', 
 'jwt', 
-'jest', 
-'chai', 
-'mocha', 
 ];
 
 export const mainTags = [
@@ -32,16 +28,12 @@ export const mainTags = [
 	{name: 'React-Router-Dom', count: 0},
 	{name: 'Redux', count: 0},
 	{name: 'Reduxjs-Toolkit', count: 0},
-	{name: 'TypeScript', count: 0},
-	{name: 'Node-Express JS', count: 0},
+	{name: 'Node-JS', count: 0},
 	{name: 'MongoDB', count: 0},
 	{name: 'MySQL', count: 0},
 	{name: 'Postgres', count: 0},
 	{name: 'API REST', count: 0},
 	{name: 'JWT', count: 0},
-	{name: 'Jest', count: 0},
-	{name: 'Chai', count: 0},
-	{name: 'Mocha', count: 0},
 ];
 
 

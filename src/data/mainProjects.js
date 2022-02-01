@@ -63,22 +63,6 @@ export let mainProjects = [
 		tags: ['express-js'],
 	},
 	{
-		title: 'JavaScript Assertions',
-		urlRepository: 'https://github.com/ahoymarcus/nodejs-automated-testing-app',
-		urlApp: '',
-		image: '/images/backend/javaScript-assertions-study-freecodecamp.png',
-		description: 'Estudo de testes com o Node JS utilizando suas asserções e também módulos de terceiros. É o primeiro estudo dentro da Certificação em Quality Assurance da Freecodecamp.org em desenvolvimento backend com Node e express-js avançado.',
-		tags: ['express-js', 'node-js assertions', 'chai'],
-	},
-	{
-		title: 'Authentication and Socket.io',
-		urlRepository: 'https://github.com/ahoymarcus/advanced-nodejs-freecodecamp-studyapp',
-		urlApp: '',
-		image: '/images/backend/nodejs-authentication-studyapp.png',
-		description: 'Estudo de algumas funções avançadas de node-js como parte da Certificação em Quality Assurance da Freecodecamp.org em desenvolvimento backend com Node e express-js avançado.',
-		tags: ['express-js', 'chai', 'mocha'],
-	},
-	{
 		title: 'Exercise Tracker',
 		urlRepository: 'https://github.com/ahoymarcus/nodejs-exercise-tracker-freecodecamp',
 		urlApp: '',

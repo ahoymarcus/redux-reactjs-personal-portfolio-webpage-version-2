@@ -89,7 +89,7 @@ const ProjectsSlider = ({ type }) => {
 						</ul>
 					</div>
 					<div className="repositories">
-						<h6><a target="_blank" href={urlApp}>NetLify App</a></h6>
+						<h6><a target="_blank" href={urlApp}>The On-line App</a></h6>
 						<h6><a target="_blank" href={urlRepository}>Github repository</a></h6>
 					</div>
 					

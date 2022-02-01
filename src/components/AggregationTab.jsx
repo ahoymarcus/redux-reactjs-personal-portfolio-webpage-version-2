@@ -86,7 +86,7 @@ const AggregationTab = () => {
 				<h3>Number of Projects: <span className="number-values">{totalProjectsArraySize}</span> projects</h3>
 			</div>
 			<div className="aggregationTab-tags-container">
-				<h3>Main Tags</h3>
+				<h3>My Main Techs</h3>
 				<ul className="tag-list-container">
 					{uniqueTagsArr.map((tag, index) => {
 						if (mainTagsNames.includes(tag.toLowerCase())) {

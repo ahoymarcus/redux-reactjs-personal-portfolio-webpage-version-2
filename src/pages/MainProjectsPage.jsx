@@ -15,8 +15,8 @@ const MainProjectsPage = () => {
 			<div 
 				className="navigation-links"
 			>
-				<Link to="/"><span className="navigation-links-color-main">Main Projects List</span></Link>
-				<Link to="/all-projects"><span className="navigation-links-color-aux">See Also The Sections Projects Lists</span></Link>
+				<Link to="/"><span className="navigation-links-color-main">My Self Made Projects</span></Link>
+				<Link to="/all-projects"><span className="navigation-links-color-aux">See Also All My Learning Projects</span></Link>
 			</div>
 			 
 			<section 

@@ -19,8 +19,8 @@ const ProjectsSlider = ({ type }) => {
 	// states
 	const [ index, setIndex ] = useState(0);
 	const [ projects, setProjects ] = useState(type === 'mainProjects' ? mainProjects : otherProjects);
-	const [ h2Heading, setH2Heading ] = useState(type === 'mainProjects' ? 'Main Projects' : 'Other Projects');
-	const [ h3Heading, setH3Heading ] = useState(type === 'mainProjects' ? 'My Main Frontend and Backend Projects' : 'Vanilla JavaScript and Web Design Projects');
+	const [ h2Heading, setH2Heading ] = useState(type === 'mainProjects' ? 'My Self Made Projects' : 'Other Projects');
+	const [ h3Heading, setH3Heading ] = useState(type === 'mainProjects' ? 'My Own Frontend and Backend Projects' : 'Vanilla JavaScript and Web Design Projects');
 	
 	console.log(type);
 	console.log(projects);

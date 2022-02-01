@@ -21,8 +21,8 @@ const AllProjectsPage = () => {
 			<div 
 				className="navigation-links"
 			>
-				<Link to="/"><span className="navigation-links-color-aux">See Also The Main Projects List</span></Link>
-				<Link to="/all-projects"><span className="navigation-links-color-sections">Sections Projects Lists</span></Link>
+				<Link to="/"><span className="navigation-links-color-aux">See Also My Self Made Projects</span></Link>
+				<Link to="/all-projects"><span className="navigation-links-color-sections">All My Learning Projects</span></Link>
 			</div>
 			
 			{selectedSection === 'All' || selectedSection === 'Frontend' ? 

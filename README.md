@@ -26,7 +26,7 @@ lista todos os meus projetos em 3 seções
 
 Repository:
 
-- [Portifolio Web App versão 2.0 na Netlify]()
+- [my Portifolio Web App versão 2.0 na Netlify](https://redux-reactjs-personal-portfolio-webpage-version-2.netlify.app/)
 
 
 

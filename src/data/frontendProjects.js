@@ -3,8 +3,8 @@ export let frontendProjects = [
 		title: 'Next-JS JSnews Blog',
 		urlRepository: 'https://github.com/ahoymarcus/nextjs-myjs-tech-blog',
 		urlApp: 'https://nextjs-myjs-tech-blog.vercel.app/',
-		image: '/images/frontend/nextjs-myjs-tech-blog-04.png',
-		description: 'My personal blog with articles and informations about JavaScript and Web Development.',
+		image: '/images/frontend/nextjs-myjs-tech-blog-01.png',
+		description: 'My personal blog with articles and informations about Development, specilly the technologies related to the Web and with JavaScript, React-JS, Node-JS, and the rest of its stack.',
 		tags: ['react-js', 'next-js', 'gray-matter', 'remark', 'remark-html', 'date-fns'],
 	},{
 		title: 'Rocket Launches App',

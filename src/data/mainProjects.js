@@ -86,6 +86,14 @@ export let mainProjects = [
 		description: 'Uma Aplicação Web com Node e Express, apresentando conteúdos variados sobre música e mais especificamente música erudita, e usando uma stack de tecnologia JavaScript.',
 		tags: ['express-js', 'jest', 'mysql', 'typescript'],
 	},
+    {
+		title: 'Odin Recipes',
+		urlRepository: 'https://github.com/ahoymarcus/odin-recipes',
+		urlApp: 'https://ahoymarcus.github.io/odin-recipes/index.html',
+		image: '/images/web-design/odin-recipes-brownies-page-02.png',
+		description: 'Primeiro projeto da certificação da plataforma The Odin Project. Trata-se do design de um web site que recebe várias páginas de receitas.',
+		tags: ['html', 'css', 'css-pattern'],
+	},
 	{
 		title: 'Tribure Page',
 		urlRepository: 'https://github.com/ahoymarcus/tribute-page-freecodecamp',

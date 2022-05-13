@@ -7,6 +7,14 @@ export let webdesignProjects = [
 		description: 'Meu site pessoal de estudo Web Design: páginas responsivas, padrão “mobile-first”, SASS Modular, css-Grid, SVG-Animation (ver 2.0)',
 		tags: ['html', 'css', 'javascript', 'sass', 'svg-animation'],
 	},
+    {
+		title: 'Odin Recipes',
+		urlRepository: 'https://github.com/ahoymarcus/odin-recipes',
+		urlApp: 'https://ahoymarcus.github.io/odin-recipes/index.html',
+		image: '/images/web-design/odin-recipes-brownies-page-02.png',
+		description: 'Primeiro projeto da certificação da plataforma The Odin Project. Trata-se do design de um web site que recebe várias páginas de receitas.',
+		tags: ['html', 'css', 'css-pattern'],
+	},
 	{
 		title: 'Tribure Page',
 		urlRepository: 'https://github.com/ahoymarcus/tribute-page-freecodecamp',

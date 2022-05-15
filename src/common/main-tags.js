@@ -1,7 +1,7 @@
 export const mainTagsNames = [
 'html',
 'css',
-'css-pattern',
+'css-patterns',
 'scss',
 'javascript',
 'react-js',
@@ -22,7 +22,7 @@ export const mainTags = [
 	{name: 'HTML', count: 0},
 	{name: 'CSS', count: 0},
 	{name: 'SCSS', count: 0},
-    {name: 'CSS-Pattern', count: 0},
+    {name: 'CSS-Patterns', count: 0},
 	{name: 'JavaScript', count: 0},
 	{name: 'React-JS', count: 0},
 	{name: 'Next-JS', count: 0},

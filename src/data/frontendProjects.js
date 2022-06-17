@@ -229,6 +229,14 @@ export let frontendProjects = [
 		description: 'Buscando dados em API externa sobre criptomoedas. Projeto da plataforma de ensino Digital Innovation One.',
 		tags: ['react-js'],
 	},
+    {
+		title: 'Rock Paper & Scissors App',
+		urlRepository: 'https://github.com/ahoymarcus/odin-rock-paper-scissors',
+		urlApp: 'https://ahoymarcus.github.io/odin-rock-paper-scissors/',
+		image: '/images/frontend/rockpaperscissors-game-02.png',
+		description: 'This is the third project from The Odin Project and the first one from the JavaScript section. It aims to recreate the traditional ROCK PAPER SCISSORS game.',
+		tags: ['html', 'css', 'javascript'],
+	},
 ];
 
 

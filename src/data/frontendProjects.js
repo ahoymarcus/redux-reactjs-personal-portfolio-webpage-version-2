@@ -237,6 +237,14 @@ export let frontendProjects = [
 		description: 'This is the third project from The Odin Project and the first one from the JavaScript section. It aims to recreate the traditional ROCK PAPER SCISSORS game.',
 		tags: ['html', 'css', 'javascript'],
 	},
+    {
+		title: 'Etch-a-Sketch App',
+		urlRepository: 'https://github.com/ahoymarcus/odin-etch-a-sketch-app',
+		urlApp: 'https://ahoymarcus.github.io/odin-etch-a-sketch-app/',
+		image: '/images/frontend/Etch-a-Sketch-app-02.png',
+		description: 'This is the fourth project from The Odin Project and the second one from the JavaScript section. It aims to recreate the classic graphic editor from Ivan Sutherland (1963) inside a web interface that resembles a Etch-a-Sketch game pad.',
+		tags: ['html', 'css', 'javascript'],
+	},
 ];
 
 

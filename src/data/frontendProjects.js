@@ -230,6 +230,14 @@ export let frontendProjects = [
 		tags: ['react-js'],
 	},
     {
+		title: 'Odin JavaScript Calculator',
+		urlRepository: 'https://github.com/ahoymarcus/odin-calculator-projetct',
+		urlApp: 'https://ahoymarcus.github.io/odin-calculator-projetct/',
+		image: '/images/frontend/odin-javascript-calculator-project-01.png',
+		description: 'This is the fifth project from The Odin Project and the third one from the JavaScript section. It aims to create a JavaScript web calculator app.',
+		tags: ['html', 'css', 'css-patterns', 'javascript'],
+	},
+    {
 		title: 'Rock Paper & Scissors App',
 		urlRepository: 'https://github.com/ahoymarcus/odin-rock-paper-scissors',
 		urlApp: 'https://ahoymarcus.github.io/odin-rock-paper-scissors/',
@@ -242,7 +250,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/odin-etch-a-sketch-app',
 		urlApp: 'https://ahoymarcus.github.io/odin-etch-a-sketch-app/',
 		image: '/images/frontend/Etch-a-Sketch-app-02.png',
-		description: 'This is the fourth project from The Odin Project and the second one from the JavaScript section. It aims to recreate the classic graphic editor from Ivan Sutherland (1963) inside a web interface that resembles a Etch-a-Sketch game pad.',
+		description: 'This is the fourth project from The Odin Project. It aims to recreate the classic graphic editor from Ivan Sutherland (1963) inside a web interface that resembles a Etch-a-Sketch game pad.',
 		tags: ['html', 'css', 'javascript'],
 	},
 ];

@@ -15,7 +15,8 @@ export const mainTagsNames = [
 'mysql', 
 'postgres', 
 'api rest', 
-'jwt', 
+'jwt',
+'regex',
 ];
 
 export const mainTags = [
@@ -36,6 +37,7 @@ export const mainTags = [
 	{name: 'Postgres', count: 0},
 	{name: 'API REST', count: 0},
 	{name: 'JWT', count: 0},
+    {name: 'REGEX', count: 0},
 ];
 
 

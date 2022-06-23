@@ -78,6 +78,14 @@ export let mainProjects = [
 		description: 'Segundo desafio da série para a certificação Back End Development, com  uma aplicação que faz o parse da requisição e retornar informações da aplicação cliente.',
 		tags: ['express-js'],
 	},
+    {
+		title: 'Odin JavaScript Calculator',
+		urlRepository: 'https://github.com/ahoymarcus/odin-calculator-projetct',
+		urlApp: 'https://ahoymarcus.github.io/odin-calculator-projetct/',
+		image: '/images/frontend/odin-javascript-calculator-project-01.png',
+		description: 'This is the fifth project from The Odin Project and the third one from the JavaScript section. It aims to create a JavaScript web calculator app.',
+		tags: ['html', 'css', 'css-patterns', 'javascript'],
+	},
 	{
 		title: 'Music Database - express-js',
 		urlRepository: 'https://github.com/ahoymarcus/musica-erudita-api-node',
@@ -116,14 +124,6 @@ export let mainProjects = [
 		urlApp: 'https://technical-mongodb-mockup-doc-page-freecodecamp.netlify.app/',
 		image: '/images/web-design/technical-page-icon-bigger-page.png',
 		description: 'Projeto da certificação Web Design da Frecodecamp.org de 300hs. Trata-se do desafio de clonar páginas web conhecidas. No caso deste projeto, foi clonada uma página de documentação do banco de dados MongoDB.',
-		tags: ['html', 'css'],
-	},
-	{
-		title: 'Product Landing Page',
-		urlRepository: 'https://github.com/ahoymarcus/product-landing-page-freecodecamp',
-		urlApp: 'https://product-landing-page-freecodecamp-org.netlify.app/',
-		image: '/images/web-design/product-page-icon-bigger-page.png',
-		description: 'Projeto da certificação Web Design da Frecodecamp.org de 300hs. O desafio visa emular um design de web page voltada para a apresentação de produtos on-line.',
 		tags: ['html', 'css'],
 	},
 	{

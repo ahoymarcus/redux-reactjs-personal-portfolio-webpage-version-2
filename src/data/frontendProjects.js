@@ -22,6 +22,14 @@ export let frontendProjects = [
 		description: 'Um app Next.JS que renderiza informações do tempo de cidades ao redor do mundo utilizando a API Open Weather (https://openweathermap.org/), passando alguns parâmetros definir o retorno dos dados.',
 		tags: ['react-js', 'next-js', 'api rest', 'scss', 'moment-timezone'],
 	},
+    {
+		title: 'My JavaScript Bookshelf',
+		urlRepository: 'https://github.com/ahoymarcus/my-javascript-bookshelf',
+		urlApp: 'https://my-javascript-bookshelf.netlify.app/',
+		image: '/images/frontend/myjavascript-bookshelf-01.png',
+		description: 'My personal project to build book library entiriry with JavaScript. In the first part of the endevour, it started with the UML modeling and designing the Wireframe and the Layouts with Figma. And it has the basic UI and functionalities ready',
+		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'Figma'],
+	},
 	{
 		title: 'Next-JS News Blog',
 		urlRepository: 'https://github.com/ahoymarcus/nextjs-news-blog',

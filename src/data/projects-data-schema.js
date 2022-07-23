@@ -1,11 +1,11 @@
 export let projectsDataSchema = [
 	{
-		title: 'Odin JavaScript Calculator',
-		urlRepository: 'https://github.com/ahoymarcus/odin-calculator-projetct',
-		urlApp: 'https://ahoymarcus.github.io/odin-calculator-projetct/',
-		image: '/images/frontend/odin-javascript-calculator-project-01.png',
-		description: 'This is the fifth project from The Odin Project and the third one from the JavaScript section. It aims to create a JavaScript web calculator app.',
-		tags: ['html', 'css', 'css-patterns', 'javascript'],
+		title: 'My JavaScript Bookshelf',
+		urlRepository: 'https://github.com/ahoymarcus/my-javascript-bookshelf',
+		urlApp: 'https://my-javascript-bookshelf.netlify.app/',
+		image: '/images/frontend/myjavascript-bookshelf-01.png',
+		description: 'My personal project to build book library entiriry with JavaScript. In the first part of the endevour, it started with the UML modeling and designing the Wireframe and the Layouts with Figma. And it has the basic UI and functionalities ready',
+		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'Figma'],
 	},
 ];
 

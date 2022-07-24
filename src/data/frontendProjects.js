@@ -27,7 +27,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/my-javascript-bookshelf',
 		urlApp: 'https://my-javascript-bookshelf.netlify.app/',
 		image: '/images/frontend/myjavascript-bookshelf-01.png',
-		description: 'My personal project for building a book library entirely with JavaScript. In this first part, it starts with the UML modeling of core features and designing the Wireframe and the Layout pages with Figma framework. Besides, it has the basic UI and functionalities ready.',
+		description: 'This project aims for building a book library entirely with JavaScript. At this phase, it starts with the UML modeling of core features and design of the Wireframe and Layout pages with Figma. Also, the basic UI and functionalities.',
 		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'Figma'],
 	},
 	{

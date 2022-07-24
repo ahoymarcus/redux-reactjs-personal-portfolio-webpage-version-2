@@ -94,28 +94,12 @@ export let mainProjects = [
 		description: 'This is the fifth project from The Odin Project and the third one from the JavaScript section. It aims to create a JavaScript web calculator app.',
 		tags: ['html', 'css', 'css-patterns', 'javascript', 'regex'],
 	},
-	{
-		title: 'Music Database - express-js',
-		urlRepository: 'https://github.com/ahoymarcus/musica-erudita-api-node',
-		urlApp: '',
-		image: '/images/backend/music-db-icon.png',
-		description: 'Uma Aplicação Web com Node e Express, apresentando conteúdos variados sobre música e mais especificamente música erudita, e usando uma stack de tecnologia JavaScript.',
-		tags: ['express-js', 'jest', 'mysql', 'typescript'],
-	},
     {
 		title: 'Odin Landing Page',
 		urlRepository: 'https://github.com/ahoymarcus/odin-landing-page',
 		urlApp: 'https://ahoymarcus.github.io/odin-landing-page/',
 		image: '/images/web-design/odin-landing-page-01.png',
 		description: 'Second project from The Odin Project to create a Landing Page for the HTML-CSS courses section.',
-		tags: ['html', 'css', 'css-patterns'],
-	},
-    {
-		title: 'Odin Recipes',
-		urlRepository: 'https://github.com/ahoymarcus/odin-recipes',
-		urlApp: 'https://ahoymarcus.github.io/odin-recipes/index.html',
-		image: '/images/web-design/odin-recipes-brownies-page-02.png',
-		description: 'Primeiro projeto da certificação da plataforma The Odin Project. Trata-se do design de um web site que recebe várias páginas de receitas.',
 		tags: ['html', 'css', 'css-patterns'],
 	},
 	{
@@ -132,14 +116,6 @@ export let mainProjects = [
 		urlApp: 'https://technical-mongodb-mockup-doc-page-freecodecamp.netlify.app/',
 		image: '/images/web-design/technical-page-icon-bigger-page.png',
 		description: 'Projeto da certificação Web Design da Frecodecamp.org de 300hs. Trata-se do desafio de clonar páginas web conhecidas. No caso deste projeto, foi clonada uma página de documentação do banco de dados MongoDB.',
-		tags: ['html', 'css'],
-	},
-	{
-		title: 'Survey Form',
-		urlRepository: 'https://github.com/ahoymarcus/survey-form-freecodecamp',
-		urlApp: 'https://buil-a-survey-form-freecodecamp.netlify.app/',
-		image: '/images/web-design/form-page-icon.png',
-		description: 'Projeto da certificação Web Design da Frecodecamp.org de 300hs. O desafio consta de criar uma página web com formulário.',
 		tags: ['html', 'css'],
 	}
 ];

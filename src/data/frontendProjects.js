@@ -27,7 +27,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/my-javascript-bookshelf',
 		urlApp: 'https://my-javascript-bookshelf.netlify.app/',
 		image: '/images/frontend/myjavascript-bookshelf-01.png',
-		description: 'This project aims for building a book library entirely with JavaScript. At this phase, it starts with the UML modeling of core features and design of the Wireframe and Layout pages with Figma. Also, the basic UI and functionalities.',
+		description: 'This project builds a book library entirely with JavaScript. At this point, it brings the UML modeling of core features and design of Wireframe and Layout pages with Figma. Also, the basic UI and functionalities.',
 		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'Figma'],
 	},
 	{
@@ -35,7 +35,7 @@ export let frontendProjects = [
 		urlRepository: 'https://github.com/ahoymarcus/nextjs-news-blog',
 		urlApp: 'https://nextjs-reactjs-news-blog.vercel.app/',
 		image: '/images/frontend/nextjs-news-blog.png',
-		description: 'Um app Next.JS que renderiza um Blog de notícias utilizando a API pública News API (https://newsapi.org/), passando alguns parâmetros para a requição definindo número de artigos por página e a página propriamente dita que é passada de forma dinâmica na URL.',
+		description: 'Um app Next.JS que renderiza um Blog de notícias. Usa a API pública News API (https://newsapi.org/), e passa alguns parâmetros para definir a requisição dos artigos..',
 		tags: ['react-js', 'next-js', 'api rest'],
 	}, {
 		title: 'redux Shopping App',

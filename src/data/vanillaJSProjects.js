@@ -5,7 +5,7 @@ export let vanillaJSProjects = [
 		urlApp: 'https://my-javascript-bookshelf.netlify.app/',
 		image: '/images/frontend/myjavascript-bookshelf-01.png',
 		description: 'My personal project for building a book library entirely with JavaScript. In this first part, it starts with the UML modeling of core features and designing the Wireframe and the Layout pages with Figma framework. Besides, it has the basic UI and functionalities ready.',
-		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'Figma'],
+		tags: ['html', 'css', 'css-patterns', 'javascript', 'js forms validation', 'webpack', 'Figma'],
 	},
 	{
 		title: 'Grocery Bud App - Vanilla javascript',

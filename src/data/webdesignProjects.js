@@ -8,14 +8,6 @@ export let webdesignProjects = [
 		tags: ['html', 'css', 'javascript', 'sass', 'svg-animation'],
 	},
     {
-		title: 'Odin Landing Page',
-		urlRepository: 'https://github.com/ahoymarcus/odin-landing-page',
-		urlApp: 'https://ahoymarcus.github.io/odin-landing-page/',
-		image: '/images/web-design/odin-landing-page-01.png',
-		description: 'Second project from The Odin Project to create a Landing Page for the HTML-CSS courses section.',
-		tags: ['html', 'css', 'css-patterns'],
-	},
-    {
 		title: 'Odin Recipes',
 		urlRepository: 'https://github.com/ahoymarcus/odin-recipes',
 		urlApp: 'https://ahoymarcus.github.io/odin-recipes/index.html',

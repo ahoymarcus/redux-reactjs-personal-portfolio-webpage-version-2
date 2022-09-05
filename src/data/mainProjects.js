@@ -94,14 +94,6 @@ export let mainProjects = [
 		description: 'This is the fifth project from The Odin Project and the third one from the JavaScript section. It aims to create a JavaScript web calculator app.',
 		tags: ['html', 'css', 'css-patterns', 'javascript', 'regex'],
 	},
-    {
-		title: 'Odin Landing Page',
-		urlRepository: 'https://github.com/ahoymarcus/odin-landing-page',
-		urlApp: 'https://ahoymarcus.github.io/odin-landing-page/',
-		image: '/images/web-design/odin-landing-page-01.png',
-		description: 'Second project from The Odin Project to create a Landing Page for the HTML-CSS courses section.',
-		tags: ['html', 'css', 'css-patterns'],
-	},
 	{
 		title: 'Tribure Page',
 		urlRepository: 'https://github.com/ahoymarcus/tribute-page-freecodecamp',

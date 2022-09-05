@@ -40,14 +40,6 @@ export let webdesignProjects = [
 		tags: ['html', 'css'],
 	},
 	{
-		title: 'Product Landing Page',
-		urlRepository: 'https://github.com/ahoymarcus/product-landing-page-freecodecamp',
-		urlApp: 'https://product-landing-page-freecodecamp-org.netlify.app/',
-		image: '/images/web-design/product-page-icon-bigger-page.png',
-		description: 'Projeto da certificação Web Design da Frecodecamp.org de 300hs. O desafio visa emular um design de web page voltada para a apresentação de produtos on-line.',
-		tags: ['html', 'css'],
-	},
-	{
 		title: 'Galeria de Imagens',
 		urlRepository: 'https://github.com/ahoymarcus/css3-com-grid-system-transform-property',
 		urlApp: 'https://css3-com-grid-system-transform-property.netlify.com/coro-galeria-de-imagens.html',
